@@ -1,0 +1,89 @@
+.navbar{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user img{
+    
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+.notification{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.notification span{
+    background-color: red;
+    color: white;
+    width: 14px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 2px;
+    align-items: center;
+    font-size: small;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.icons img{
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+}
+
+
+  .notification-text {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #333;
+    color: #959393;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .notification:hover .notification-text {
+    display: block;
+  }
+
+  .logoutNav:hover .notification-text {
+    display: block;
+  }
+  .logoutNav{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+ 

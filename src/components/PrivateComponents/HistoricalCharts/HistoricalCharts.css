@@ -1,0 +1,30 @@
+.hiscontainer {
+    /* width: "75%"; */
+    display: "flex";
+    flex-direction: "column";
+    align-items: "center";
+    justify-content: "center";
+    margin-top:  25;
+    /* padding: 40; */
+    height: 500px;
+    gap: 20px;
+  }
+  .lowerBody{
+    gap: 30px;
+    /* padding: 30px; */
+    display: flex;
+    justify-content: center;
+  }
+  .lowerBody Button{
+    background-color: rgb(199, 199, 31);
+    /* padding: 10px;
+    border-radius: 10px; */
+  } 
+  .bar{
+    gap: 20px;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 

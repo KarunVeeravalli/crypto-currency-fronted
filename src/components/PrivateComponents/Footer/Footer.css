@@ -1,0 +1,16 @@
+.footerMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    height: 40px;
+    background: rgb(169, 165, 165);
+}
+.span1{
+    font-weight: bold;
+}
+
+.span2{
+    font-weight: 14px;
+}

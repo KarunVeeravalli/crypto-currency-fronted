@@ -1,0 +1,34 @@
+.mainWalletBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* padding: 10px; */
+}
+.insideMainWalletBox{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    /* align-items: center; */
+    gap: 10px;
+    padding-top: 20px;
+}
+.walletBox{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.insideMainWalletBox h5{
+    color: rgb(238, 96, 96);
+
+}
+.insideMainWalletBox span{
+    color: white;
+}
+.showMoreWalletBox{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    color: lightblue;
+}

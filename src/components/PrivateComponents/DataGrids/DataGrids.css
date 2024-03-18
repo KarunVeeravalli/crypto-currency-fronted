@@ -1,0 +1,29 @@
+.dataGrids{
+    /* color: antiquewhite;
+     */
+     background-color: antiquewhite;
+     padding: 20px;
+}
+.MuiDataGrid-toolbarContainer{
+    flex-direction: row-reverse;
+}
+
+/* img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+.action img{
+    
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      
+}
+
+
+.dataGrids{
+    object-fit: cover;
+    width: 99%;
+}

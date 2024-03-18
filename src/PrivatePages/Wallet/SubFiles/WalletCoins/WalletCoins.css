@@ -1,0 +1,57 @@
+.walletCoinsCoins{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.walletCoinsCoins:hover{
+    
+    border-radius: 10px;
+    background-color: rgb(165, 163, 163);
+}
+.walletCoinsMain{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.coinLongBox img{
+    height: 40px;
+    width: 40px;
+}
+.walletCoinsHeadings{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+.iconWalletCoins{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameWalletCoins{
+    width: 90px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.priceWalletCoins{
+    width: 80px;
+    display: flex;
+    align-items: center;
+}
+.marketCapWalletCoins{
+    width: 80px;
+    display: flex;
+    text-align: center;
+}
+.vlLongBox{
+    border-left: 1px solid green;
+  height: 20px;
+
+}
+.walletCoinsHeadings h5{
+    color: rgb(238, 96, 96);
+}

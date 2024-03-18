@@ -1,0 +1,57 @@
+.coinLongBox{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.coinLongBox:hover{
+    
+    border-radius: 10px;
+    background-color: rgb(165, 163, 163);
+}
+.mainLongBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.coinLongBox img{
+    height: 40px;
+    width: 40px;
+}
+.headings{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+.iconLongBox{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameLongBox{
+    width: 90px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.lastPriceLongBox{
+    width: 80px;
+    display: flex;
+    align-items: center;
+}
+.marketCapLongBox{
+    width: 80px;
+    display: flex;
+    text-align: center;
+}
+.vlLongBox{
+    border-left: 1px solid green;
+  height: 20px;
+
+}
+.headings h5{
+    color: rgb(238, 96, 96);
+}

@@ -1,0 +1,20 @@
+.holiday{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+.date{
+    text-align: end;
+    justify-content: center;
+}
+
+.mainHolidayBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.listHolidays{
+    padding-top: 30px;
+}

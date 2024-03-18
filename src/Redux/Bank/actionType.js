@@ -1,0 +1,8 @@
+export const GET_BANK = "GET_BANK";
+export const ADD_BANK = "ADD_BANK";
+export const UPDATE_BANK = "UPDATE_BANK";
+export const DELETE_BANK = "DELETE_BANK";
+export const GET_ALL_BANKS = "GET_ALL_BANKS";
+export const ADD_MONEY_TO_BANK_FROM_WALLET = "ADD_MONEY_TO_BANK_FROM_WALLET";
+export const SEND_MONEY_FROM_BANK_TO_WALLET = "SEND_MONEY_FROM_BANK_TO_WALLET"; 
+ 
